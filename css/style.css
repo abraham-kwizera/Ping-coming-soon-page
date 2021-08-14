@@ -94,6 +94,15 @@ form input[type="submit"]:hover {
     grid-area: footer;
 }
 
+.social-links a {
+    padding: 0 20px;
+}
+
+.social-links a:hover {
+    color: hsl(223, 87%, 63%);
+    cursor: pointer;
+}
+
 @media screen and (max-width: 630px) {
     .container {
         display: flex;
